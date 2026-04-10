@@ -6,7 +6,7 @@
 import { db } from './database';
 
 // Use the provided Ngrok URL from the user
-const PROXY_URL = "https://barkiest-sirena-irrotational.ngrok-free.dev/process";
+const PROXY_URL = "https://chamomile-veneering-geriatric.ngrok-free.dev/process";
 
 export const geminiService = {
   async classifyIssue(title: string, description: string, area: string = "General", imageBase64?: string) {
